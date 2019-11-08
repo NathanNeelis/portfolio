@@ -1,0 +1,361 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    /*    background-image: linear-gradient(white, #f6f6f6, white);*/
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+
+/*--------------------------- Menu --------------------------------------------------------*/
+/*--------------------------- Menu --------------------------------------------------------*/
+/*--------------------------- Menu --------------------------------------------------------*/
+
+
+nav {
+    background-color: #f6f6f6;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #4a4a49;
+    font-size: .75em;
+    margin: 0;
+    z-index: 2;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 4vw 0 4vw;
+    align-items: center;
+}
+
+li {
+    padding: 1em 3em 1em 3em;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+
+li:first-child {
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 1em 1em 1em 1em;
+    opacity: 0;
+
+    animation-name: logoNathan;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+
+}
+
+
+
+ul li a:hover,
+ul li a:focus {
+    /*    fill: #e6007e;*/
+    color: #e6007e;
+    transition-duration: 0.5s;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4a4a49;
+}
+
+
+
+/*--------------------------- Header --------------------------------------------------------*/
+/*--------------------------- Header --------------------------------------------------------*/
+/*--------------------------- Header --------------------------------------------------------*/
+
+.header-image {
+    width: 100vw;
+    z-index: -1;
+    position: inherit;
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 5vw;
+    right: 5vw;
+
+
+}
+
+h1 span {
+    color: #e6007e;
+    animation: glow 5s ease-in-out infinite alternate;
+}
+
+/*--------------------------- Mijn verhaal --------------------------------------------------------*/
+/*--------------------------- Mijn verhaal --------------------------------------------------------*/
+/*--------------------------- Mijn verhaal --------------------------------------------------------*/
+
+.overNathan:first-child {
+    /*    display: block;*/
+    /*    justify-content: space-around;*/
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.overNathan:first-child article:nth-child(3) {
+    background-color: #f6f6f6;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+}
+
+main article a {
+    color: #e6007e;
+}
+
+.overNathan article p {
+    margin-bottom: 1rem;
+}
+
+.overNathan article a:hover {
+    text-decoration: underline;
+}
+
+.overNathan article img {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #f6f6f6;
+}
+
+
+/*--------------------------- Mijn passie --------------------------------------------------------*/
+/*--------------------------- Mijn passie --------------------------------------------------------*/
+/*--------------------------- Mijn passie --------------------------------------------------------*/
+
+.overNathan:nth-child(2) {
+    width: 100vw;
+    background-color: #4a4a49;
+    margin: 4rem auto 0rem auto;
+}
+
+.overNathan:nth-child(2) h2 {
+    width: 80vw;
+    margin: 2rem auto;
+    padding-top: 4rem;
+    color: white;
+}
+
+
+.overNathan:nth-child(2) article:nth-child(2) p {
+    margin-bottom: 1rem;
+    color: white;
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.overNathan:nth-child(2) article:nth-child(2) p:last-child {
+    padding-bottom: 1rem;
+}
+
+.overNathan:nth-child(2) article img {
+    margin-bottom: 2rem;
+}
+
+
+/*--------------------------- Vaardigheden --------------------------------------------------------*/
+/*--------------------------- Vaardigheden --------------------------------------------------------*/
+/*--------------------------- Vaardigheden --------------------------------------------------------*/
+
+.vaardigheden {
+    width: 80vw;
+    margin: 2rem auto;
+    opacity:0;
+
+    animation-name: skillBlocks;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+.vaardigheden div {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.vaardigheden div article{
+    background-color:#f6f6f6;
+    padding:2rem;
+    color:#4a4a49;
+    box-shadow: 0px 0px 10px #f6f6f6;
+    text-align:center;
+}
+
+.vaardigheden div article h4{
+    font-size:1.5rem;
+    text-align:center;
+    margin-bottom:1rem;
+}
+
+.vaardigheden div article:hover h4{
+    color:#e6007e;
+}
+
+.vaardigheden div article:hover, .vaardigheden div article:focus {
+    box-shadow: 0px 0px 10px #cacaca;
+}
+
+.vaardigheden h2{
+    padding:1.5rem;
+    margin-top:6rem;
+    background-color:#e6007e;
+    color:white;
+}
+
+
+
+
+
+/*--------------------------- footer --------------------------------*/
+/*--------------------------- footer --------------------------------*/
+/*--------------------------- footer --------------------------------*/
+
+
+
+footer {
+    background-color: #f6f6f6;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #4a4a49;
+    font-size: .75em;
+    margin: 0;
+    padding: 3em;
+    text-align: center;
+}
+
+
+/*--------------------------- break points --------------------------------*/
+/*--------------------------- break points --------------------------------*/
+/*--------------------------- break points --------------------------------*/
+
+
+
+/* Responsive 800px START*/
+@media all and (min-width: 800px) {
+    ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 4vw 0 4vw;
+
+    }
+
+    li {
+        border-bottom: 0px solid white;
+    }
+
+    .header-image {
+        width: 100vw;
+        z-index: -1;
+    }
+
+    h1 {
+        font-size: 4rem;
+        position: absolute;
+        top: 10rem;
+        left: 25%;
+        right: 25%;
+        color: white;
+        text-align: center;
+
+
+    }
+
+    /*--------------------------- Mijn verhaal  Breakpoint -------------------------------------*/
+
+    .overNathan:first-child {
+        width: 50vw;
+    }
+
+    /*--------------------------- Mijn passie Breakpoint -------------------------------------*/
+    .overNathan:nth-child(2) h2 {
+        width: 50vw;
+    }
+
+
+    .overNathan:nth-child(2) article:nth-child(2) p {
+        width: 50vw;
+    }
+
+
+
+}
+
+
+/*---------------------------------------------------------CSS ANIMATIE ---------------------------------------------------*/
+/*---------------------------------------------------------CSS ANIMATIE ---------------------------------------------------*/
+/*---------------------------------------------------------CSS ANIMATIE ---------------------------------------------------*/
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffb4f5, 0 0 40px #fff, 0 0 50px #ffb4f5, 0 0 60px #fff, 0 0 70px #ffb4f5, 0 0 80px #fff;
+    }
+}
+
+
+
+@keyframes logoNathan {
+    from {
+        margin-left: -4rem;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0;
+        opacity: 100;
+    }
+
+}
+
+
+@keyframes skillBlocks {
+    from {
+        margin-top: 10rem;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 0;
+        opacity: 100;
+    }
+
+}
