@@ -386,6 +386,11 @@ main article a {
     background-color: #4a4a49;
 }
 
+.ofjSection img {
+    width: 80vw;
+}
+
+
 .ofjSection article:first-child,
 .ofjSection article:first-child h3 {
     padding-top: 4rem;
@@ -398,12 +403,8 @@ main article a {
 
 }
 
-.ofjSection article figure:first-child{
-    width:70%;
-    margin: 0 auto;
-}
 
-/*--------------------------- Internet standaarden / ImageNaat Storiegrafie --------------------------------*/
+
 
 
 
@@ -492,6 +493,10 @@ footer {
     }
 
     .ofjSection article {
+        width: 50vw;
+    }
+
+    .ofjSection img {
         width: 50vw;
     }
 
