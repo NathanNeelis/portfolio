@@ -15,10 +15,10 @@ p {
     line-height: 1.5rem;
 }
 
-figcaption{
-    font-style:italic;
-    font-size:.7rem;
-    color:#4a4a49;
+figcaption {
+    font-style: italic;
+    font-size: .7rem;
+    color: #4a4a49;
 }
 
 /*--------------------------- Menu --------------------------------------------------------*/
@@ -185,6 +185,13 @@ main article a {
     margin: 2rem auto;
 }
 
+.overNathan span {
+    font-size: .75rem;
+    font-style: italic;
+    display: block;
+}
+
+
 .overNathan:nth-child(2) article:nth-child(2) p:last-child {
     padding-bottom: 1rem;
 }
@@ -193,6 +200,11 @@ main article a {
     margin-bottom: 2rem;
 }
 
+#inlineImage {
+    width: 80vw;
+    margin: 1rem auto;
+
+}
 
 /*--------------------------- Vaardigheden --------------------------------------------------------*/
 /*--------------------------- Vaardigheden --------------------------------------------------------*/
@@ -216,7 +228,7 @@ main article a {
 .vaardigheden div {
     margin: 2rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     grid-gap: 2rem;
 }
 
@@ -367,6 +379,30 @@ main article a {
     background-color: #4a4a49;
 }
 
+
+.ofjSection {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #4a4a49;
+}
+
+.ofjSection article:first-child,
+.ofjSection article:first-child h3 {
+    padding-top: 4rem;
+}
+
+.ofjSection article {
+    width: 80vw;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.ofjSection article figure:first-child{
+    width:70%;
+    margin: 0 auto;
+}
+
 /*--------------------------- Internet standaarden / ImageNaat Storiegrafie --------------------------------*/
 
 
@@ -441,6 +477,10 @@ footer {
         width: 50vw;
     }
 
+    #inlineImage {
+        width: 50vw;
+    }
+
     /*--------------------------- Mijn specifieke projecten -------------------------------------*/
     .specificProjects {
         width: 50vw;
@@ -448,6 +488,10 @@ footer {
     }
 
     .specificProjects img {
+        width: 50vw;
+    }
+
+    .ofjSection article {
         width: 50vw;
     }
 
