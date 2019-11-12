@@ -15,6 +15,11 @@ p {
     line-height: 1.5rem;
 }
 
+figcaption{
+    font-style:italic;
+    font-size:.7rem;
+    color:#4a4a49;
+}
 
 /*--------------------------- Menu --------------------------------------------------------*/
 /*--------------------------- Menu --------------------------------------------------------*/
@@ -113,6 +118,11 @@ h1 span {
     color: #e6007e;
     animation: glow 5s ease-in-out infinite alternate;
 }
+
+h2 span {
+    color: #e6007e;
+}
+
 
 /*--------------------------- Mijn verhaal --------------------------------------------------------*/
 /*--------------------------- Mijn verhaal --------------------------------------------------------*/
@@ -304,6 +314,62 @@ main article a {
     color: white;
 }
 
+/*---------------------------------------------------------Projects ---------------------------------------------------*/
+/*---------------------------------------------------------Projects ---------------------------------------------------*/
+/*---------------------------------------------------------Projects ---------------------------------------------------*/
+
+.specificProjects {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.specificProjects img {
+    width: 80vw;
+}
+
+
+.specificProjects h2 {
+    padding: 2rem 0 0 0;
+}
+
+.specificProjects h3 {
+    margin: 3rem 0 1rem 0;
+}
+
+.specificProjects p {
+    margin-bottom: 1.5rem;
+}
+
+.download-btn {
+    display: inline-block;
+    text-align: center;
+    /*    width: 20vw;*/
+    padding: 1rem;
+    background-color: #e6007e;
+    color: white;
+    border-width: thin;
+    border-style: solid;
+    border-color: #e6007e;
+    border-radius: .5rem;
+    transition-duration: .5s;
+    /*    box-shadow:0px 0px 10px #f6f6f6;*/
+}
+
+.specificProjects article:last-child {
+    margin-bottom: 3rem;
+}
+
+.download-btn:hover {
+    box-shadow: 0px 0px 4px darkslategray;
+}
+
+.imageDiap {
+    background-color: #4a4a49;
+}
+
+/*--------------------------- Internet standaarden / ImageNaat Storiegrafie --------------------------------*/
+
+
 
 /*--------------------------- footer --------------------------------*/
 /*--------------------------- footer --------------------------------*/
@@ -375,7 +441,15 @@ footer {
         width: 50vw;
     }
 
+    /*--------------------------- Mijn specifieke projecten -------------------------------------*/
+    .specificProjects {
+        width: 50vw;
+        margin: 0 auto;
+    }
 
+    .specificProjects img {
+        width: 50vw;
+    }
 
 }
 

@@ -1,0 +1,26 @@
+ImageNaat Storiegrafie
+Het eindproduct na de eerste lessen over HTML en CSS is een website over mijn vakanties. Dit project gaat meer over mijn leermomenten met de code tijdens het coderen van het eindproduct.
+
+Studie portfolio
+Aan het eind van het eerste jaar maakte ik een studie portfolio website. Op deze website staan projecten tijdens mijn studie beschreven en welke leerdoelen ik hierin bereikt heb.
+
+Foodtrucks
+In een vorig project had ik een platform ontwikkeld waar gebruikers een foodtruck kunnen inhuren en de eigenaars van een foodtruck hunzelf konden verhuren. Tijdens dit project maakte ik van het idee een gecodeerde website die op alle devices te gebruiken is.
+
+Maas Koffieautomaten
+In het begin van mijn studie leerde ik over User Centered Design. In dit project onderzoek ik de gebruikers die gebruik maken van de koffieautomaten van de HvA. Ik onderzoek waar de pijnpunten liggen en waar er ruimte is voor verbetering.
+
+Workspace
+In dit groepsproject ontwikkelde we een ontwerp oplossing dat studenten helpt om aan hun projecten te werken bij de CoffeeCompany. Dit project is opgesplitst in vier verschillende fases; verkennen, definiëren, idee generatie en conceptualiseren. In elk van deze fases leer ik over nieuwe onderzoekstechnieken en pas ik deze toe.
+
+Buddify
+Buddify is ontworpen in een schoolproject als extensie voor Spotify. Buddify helpt muziekfreaks elkaar te ontmoeten en hun passie voor hun muziek en artiest te delen met elkaar.
+
+FitFood
+FitFood is een ontwerp oplossing voor een topsport gewichtheffer die het druk heeft met trainen en lesgeven en zich aan een strak dieet moet houden. FitFood helpt bij het organiseren wat en wanneer er iets gegeten moet worden, daarbij maakt FitFood een boodschappenlijst voor het gewenste aantal dagen.
+
+ISGA
+Voor de International Student Guide Amsterdam maakte ik in dit project een digitaal component. Het boekje gaat over alles wat de internationale student in Amsterdam kan helpen. Mijn digitale component specificeert zich op studieplekken in Amsterdam. Met deze app kan je zien waar studieplekken in de buurt zijn en of er studievrienden al aan het studeren zijn.
+
+Outdoor voor jou
+Outdoor voor jou is een website die de gebruiker helpt met het zoeken vancampings en activiteiten op specifieke locaties. De gevonden resultatenkunnen, bijvoorbeeld op de desktop, opgeslagen worden om vervolgensnog eens op te kunnen zoeken. Daarbij is het op de mobile device mogelijkde wandelingen vooraf te downloaden zodat je de route kan blijven volgenals je internetverbinding wegvalt in de natuur.
