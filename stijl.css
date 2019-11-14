@@ -94,6 +94,29 @@ a {
 }
 
 
+#contactButton {
+    font-weight: 400;
+    color: white;
+    font-size: .75rem;
+    font-family: 'Quicksand', sans-serif;
+    background-color: green;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid #e6007e;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#contactButton:focus {
+    border: 1px solid blue;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.contactShow {
+    opacity: 1;
+}
+
 /*--------------------------- Contact --------------------------------------------------------*/
 /*--------------------------- Contact  --------------------------------------------------------*/
 
@@ -190,28 +213,7 @@ header form legend {
     outline: none;
 }
 
-#contactButton {
-    font-weight: 400;
-    color: white;
-    font-size: .75rem;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #e6007e;
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-    border: 1px solid #e6007e;
-    outline: none;
-    -webkit-appearance: none;
-}
 
-#contactButton:focus {
-    border: 1px solid blue;
-    outline: none;
-    -webkit-appearance: none;
-}
-
-.contactShow {
-    opacity: 1;
-}
 
 
 /*--------------------------- Header --------------------------------------------------------*/
