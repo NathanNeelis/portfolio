@@ -28,8 +28,7 @@
                     </a></li>
                 <li><a href="index.html">
                         <div class="menuselected">
-                            <!-- image -->
-                        Over mij</div>
+                            Over mij</div>
                     </a></li>
                 <li><a href="skills.html">
                         Skills
@@ -37,8 +36,32 @@
                 <li><a href="projects.html">
                         Projects
                     </a></li>
+
+                <li>
+                    <button id="contactButton">
+                        Contact</button>
+                </li>
             </ul>
         </nav>
+
+        <section>
+            <form action="contactForm.php" method="post">
+                <fieldset>
+                    <legend> Neem contact op </legend>
+                    <label for="name"> Wat is je naam?</label>
+                    <input type="text" name="name" id="name" placeholder="Bijv. Jan Jansen" />
+
+                    <label for="email"> Wat is je e-mail?</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com">
+
+                    <label for="message"> Type hier je bericht </label>
+                    <textarea name="message" id="message" placeholder="Wat kan ik voor je betekenen?"></textarea>
+
+                    <button type="submit" name="verstuur" id="verstuur" value="verstuur"> Send</button>
+
+                </fieldset>
+            </form>
+        </section>
 
 
         <section>
@@ -61,7 +84,7 @@
 
             <article>
                 <p>
-                    Na mijn opleiding voor grafische vormgever ben ik begonnen met werken bij <a href="www.str8.nl">Straight Premedia</a>. Mijn eerste baan in de grafische sector en tot op de dag van vandaag een erg fijne werkplek.  Bij Straight heb ik kunnen leren over het werken met huisstijlen en over drukwerk. Mijn werkwijze bij de klanten waar ik bij  Straight voor werk zoals Philips en ING is het vertalen van de briefing naar een sprekend design die voldoet aan hun wensen en huisstijl richtlijnen.
+                    Na mijn opleiding voor grafische vormgever ben ik begonnen met werken bij <a href="www.str8.nl">Straight Premedia</a>. Mijn eerste baan in de grafische sector en tot op de dag van vandaag een erg fijne werkplek. Bij Straight heb ik kunnen leren over het werken met huisstijlen en over drukwerk. Mijn werkwijze bij de klanten waar ik bij Straight voor werk zoals Philips en ING is het vertalen van de briefing naar een sprekend design die voldoet aan hun wensen en huisstijl richtlijnen.
                 </p>
                 <p>
                     De wereld van drukwerk wordt alleen maar kleiner en in de toekomst zou ik graag mijn passie volgen en meer digitaal willen doen. Om daar invulling aan te geven heb ik na vier jaar gewerkt te hebben bij Straight in 2018 besloten om mijn leertraject voort te zetten op de HvA met de dagopleiding <a href="https://www.cmd-amsterdam.nl/">Communicatie Multimedia Design (CMD)</a>. Ik werk echter nog wel regelmatig voor/bij Straight om mijn kennis en ervaring op pijl te houden.</p>
@@ -109,6 +132,9 @@
         <p>&#9400; Nathan Neelis - Portfolio 2019/2020</p>
     </footer>
 
+
+    <!-- scripts -->
+    <script src="js/script.js"></script>
 
 </body>
 

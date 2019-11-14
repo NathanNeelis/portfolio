@@ -71,10 +71,13 @@ li:first-child {
 
 }
 
-
-
-ul li a:hover,
 ul li a:focus {
+    color: blue;
+    transition-duration: 0.5s;
+    outline: none;
+}
+
+ul li a:hover {
     /*    fill: #e6007e;*/
     color: #e6007e;
     transition-duration: 0.5s;
@@ -86,6 +89,129 @@ a {
     color: #4a4a49;
 }
 
+.menuselected {
+    color: #e6007e;
+}
+
+
+/*--------------------------- Contact --------------------------------------------------------*/
+/*--------------------------- Contact  --------------------------------------------------------*/
+
+header form {
+    width: 80vw;
+    background-color: white;
+    border-radius: 1rem;
+/*    margin-right:-80vw;*/
+    position: absolute;
+    left: 10%;
+    top: 16rem;
+    padding: 2rem;
+    z-index: 4;
+    box-shadow: 0px 0px 10px #4a4a49;
+    opacity: 0;
+    animation-duration: 1;
+
+}
+
+header form input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #4a4a49;
+    border-radius: .2rem;
+}
+
+header form input:focus {
+    border-color: #e6007e;
+    border-width: thin;
+    outline: none;
+}
+
+
+
+header form textarea {
+    width: 100%;
+    height: 7rem;
+    display: block;
+    padding: 1rem;
+    border: 1px solid #4a4a49;
+    border-radius: .2rem;
+}
+
+header form textarea:focus {
+    border-color: #e6007e;
+    border-width: thin;
+    outline: none;
+}
+
+#verstuur:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+header form label {
+    display: block;
+    margin: 1rem 0 .5rem 0;
+}
+
+header form fieldset {
+    border: 0;
+    margin: 1rem 0;
+}
+
+header form legend {
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #e6007e;
+    text-align: center;
+}
+
+#verstuur {
+    display: block;
+    width: 40%;
+    margin-top: 1.5em;
+    margin-left: 60%;
+    padding: 1em 0;
+    background-color: #e6007e;
+    border-radius: .4rem;
+    font-weight: 600;
+    color: white;
+    border: 1px solid #e6007e;
+    transition-duration: .5s;
+
+}
+
+#verstuur:hover {
+    box-shadow: 0px 0px 4px darkslategray;
+}
+
+#verstuur:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+#contactButton {
+    font-weight: 400;
+    color: white;
+    font-size: .75rem;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e6007e;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid #e6007e;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#contactButton:focus {
+    border: 1px solid blue;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.contactShow {
+    opacity: 1;
+}
 
 
 /*--------------------------- Header --------------------------------------------------------*/
@@ -107,7 +233,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     z-index: 2;
     position: absolute;
-    top: 30%;
+    top: 17rem;
     left: 5vw;
     right: 5vw;
 
@@ -248,7 +374,16 @@ main article a {
 
 .vaardigheden div article:hover h4 {
     color: #e6007e;
+
 }
+
+/*
+.vaardigheden div article h4 span{
+    font-size:1rem;
+    display:block;
+    font-weight:500;
+}
+*/
 
 .vaardigheden div article:hover,
 .vaardigheden div article:focus {
@@ -432,7 +567,6 @@ footer {
 /*--------------------------- break points --------------------------------*/
 
 
-
 /* Responsive 800px START*/
 @media all and (min-width: 800px) {
     ul {
@@ -501,7 +635,37 @@ footer {
         width: 50vw;
     }
 
+    /*--------------------------- Contact -------------------------------------*/
+
+    header form {
+        width: 40vw;
+        position: absolute;
+        right: 2vw;
+        left: inherit;
+        top: 6rem;
+    }
+
+    #contactButton:hover{
+    box-shadow: 0px 0px 4px darkslategray;
 }
+
+
+}
+
+
+/* Responsive 1200px START*/
+@media all and (min-width: 1200px) {
+
+    header form {
+        width: 30vw;
+        position: absolute;
+        right: 2vw;
+        left: inherit;
+        top: 6rem;
+    }
+
+}
+
 
 
 /*---------------------------------------------------------CSS ANIMATIE ---------------------------------------------------*/
@@ -545,3 +709,4 @@ footer {
     }
 
 }
+
