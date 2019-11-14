@@ -11,7 +11,7 @@ if (isset($_POST['submit'])){
 
     mail($mailTo, $text, $headers);
 
-    header("Location: verzonden.html");
+//    header("Location: verzonden.html");
 
 }
 
