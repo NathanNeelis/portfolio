@@ -525,9 +525,14 @@ main article a {
 
 .ofjSection img {
     width: 80vw;
-    margin: 1rem auto;
+    margin: 1rem auto 2rem auto;
 }
 
+.ofjSection h5 {
+    margin: 1rem 0rem;
+    font-size:1.1rem;
+
+}
 
 .ofjSection article:first-child,
 .ofjSection article:first-child h3 {
@@ -628,6 +633,8 @@ footer {
     .specificProjects img {
         width: 50vw;
     }
+
+
 
     .ofjSection article {
         width: 50vw;
